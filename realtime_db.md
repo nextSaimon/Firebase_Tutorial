@@ -7,7 +7,10 @@
 ```javascript
 set(ref(db, 'path/to/data'), data);
 ```
-
+**For Auto Generate ID**:
+```javascript
+set(push(ref(db, `path/to/data`)), data)
+```
 **Description**:
 
 - Writes or updates data to the specified path in the Realtime Database.
