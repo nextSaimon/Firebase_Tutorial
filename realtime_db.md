@@ -5,7 +5,7 @@
 **Function Structure**:
 
 ```javascript
-set(ref(db, 'path/to/data'), data);
+set(ref(db, 'path/to/data/{docId}'), data);
 ```
 **For Auto Generate ID**:
 ```javascript
